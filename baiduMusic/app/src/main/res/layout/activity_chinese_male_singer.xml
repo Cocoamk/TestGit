@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fifty_dp"
+        android:background="#00b4f5"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_chinese_male_singer_return"
+            android:layout_width="@dimen/twenty_dp"
+            android:layout_height="@dimen/twenty_dp"
+            android:layout_marginLeft="@dimen/twenty_dp"
+            android:layout_marginTop="15dp"
+            android:background="@mipmap/bt_sceneplay_mode_show" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/twenty_dp"
+            android:layout_marginLeft="@dimen/twenty_dp"
+            android:layout_marginTop="@dimen/fifteen_dp"
+            android:text="华语男歌手"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="热门"
+        android:layout_marginTop="@dimen/ten_dp"
+        android:layout_marginLeft="@dimen/ten_dp"/>
+    <ListView
+        android:id="@+id/chinese_male_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

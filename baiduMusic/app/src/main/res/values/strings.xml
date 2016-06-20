@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">baiduMusic</string>
+    <string name="local_songs">本地音乐</string>
+    <string name="recently_play">最近播放</string>
+    <string name="load_manager">下载管理</string>
+    <string name="mine_k_songs">我的K歌</string>
+    <string name="collect_song_menu">收藏歌单</string>
+    <string name="mine_collect_song">我收藏的单曲</string>
+    <string name="myself_new_song_menu">自建歌单</string>
+    <string name="mine_default_song_menu">我的默认歌单</string>
+    <string name="new_song_menu">新建歌单</string>
+    <string name="song_classify">歌曲分类</string>
+    <string name="all_singer">全部歌手</string>
+    <string name="today_recommend">今日推荐</string>
+    <string name="ktv">KTV热歌榜</string>
+    <string name="chinese">华语金曲</string>
+    <string name="occident">欧美经典</string>
+    <string name="man">男歌手</string>
+    <string name="woman">女歌手</string>
+    <string name="band">乐队组合</string>
+    <string name="everybody_sing">大家都在唱</string>
+    <string name="radio_all">全部</string>
+    <string name="goddess">女神</string>
+    <string name="The_Voice">好声音</string>
+    <string name="new_show">新秀</string>
+    <string name="best">劲爆</string>
+    <string name="Funny">搞笑</string>
+    <string name="beauty_grill">萌妹</string>
+    <string name="radio_recommend">推荐</string>
+    <string name="hot_live">热门直播</string>
+    <string name="all_songs_list">全部歌单</string>
+    <string name="red_heart_channel">红心频道</string>
+    <string name="personal_channel">私人频道</string>
+    <string name="recommend_radio_station">推荐电台</string>
+    <string name="song_singer_special_lyric_accompany">歌曲,歌手,专辑,歌词,伴奏</string>
+    <string name="hot_search">热门搜索</string>
+    <string name="No_search_history">无搜索历史记录</string>
+    <string name="more">更多</string>
+    <string name="Login_immediately">立即登录</string>
+    <string name="Synchronous_collection_of_music_to_mobile_phones_computers">同步收藏的音乐至手机,电脑</string>
+    <string name="Only_Wifi_network">仅WiFi联网</string>
+    <string name="Timing_closure">定时关闭</string>
+    <string name="Desktop_lyrics">桌面歌词</string>
+    <string name="Lock_screen">锁屏</string>
+    <string name="In_the_skin">换肤</string>
+    <string name="sound">音效</string>
+    <string name="Scan_the_song">扫描歌曲</string>
+    <string name="The_music_is_music">听歌识曲</string>
+    <string name="Computer_guide_song">电脑导歌</string>
+    <string name="Become_a_platinum_VIP">成为白金VIP</string>
+    <string name="Thunderstone_jukebox">雷石点唱机</string>
+    <string name="Set_up">设置</string>
+    <string name="Activity_zone">活动专区</string>
+    <string name="Random_play_all">随机播放全部</string>
+    <string name="Batch_download">批量下载</string>
+    <string name="The_batch_management">批量管理</string>
+    <string name="Click_on_image_to_login">点击头像登录</string>
+    <string name="Just_listen_to">随便听听</string>
+    <string name="hot_singer">热门歌手</string>
+  <string name="chinese_man_singer">华语男歌手</string>
+    <string name="chinese_woman_singer">华语女歌手</string>
+    <string name="Combination_of_Chinese">华语组合</string>
+    <string name="Europe_and_the_United_States_male_singer">欧美男歌手</string>
+    <string name="Europe_and_the_female_singer">欧美女歌手</string>
+    <string name="Europe_and_the_United_States_combined">欧美组合</string>
+    <string name="Korean_man_singer">韩国男歌手</string>
+    <string name="Korean_woman_singer">韩国女歌手</string>
+    <string name="Korea_combination">韩国组合</string>
+    <string name="Japanese_male_singer">日本男歌手</string>
+    <string name="Japanese_female_singer">日本女歌手</string>
+    <string name="Japanese_combination">日本组合</string>
+    <string name="Other_singers">其他歌手</string>
+    <string name="baidu_account_login">百度账号登陆</string>
+    <string name="number_user_Email">手机号/用户名/邮箱</string>
+    <string name="password">密码</string>
+    <string name="login">登录</string>
+    <string name="login_problem">登录遇到问题</string>
+
+
+
+
+
+
+
+</resources>

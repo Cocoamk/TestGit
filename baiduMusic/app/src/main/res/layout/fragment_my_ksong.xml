@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00b4f5">
+
+        <Button
+            android:id="@+id/btn_myKsong_return"
+            android:layout_width="@dimen/twenty_dp"
+            android:layout_height="@dimen/twenty_dp"
+            android:layout_marginLeft="@dimen/twenty_dp"
+            android:layout_marginTop="@dimen/fifteen_dp"
+            android:background="@mipmap/bt_sceneplay_mode_show" />
+
+        <ImageView
+            android:id="@+id/Img_to_login"
+            android:layout_width="@dimen/seventy_dp"
+            android:layout_height="@dimen/seventy_dp"
+            android:layout_below="@+id/btn_myKsong_return"
+            android:layout_marginTop="@dimen/ten_dp"
+            android:background="@mipmap/ktv_share_img_head" />
+
+        <TextView
+            android:id="@+id/tv_my_k_song"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/twenty_dp"
+            android:layout_below="@id/btn_myKsong_return"
+            android:layout_marginLeft="@dimen/twenty_dp"
+            android:layout_marginTop="@dimen/fifteen_dp"
+            android:layout_toRightOf="@+id/Img_to_login"
+            android:text="@string/mine_k_songs"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/twenty_dp"
+            android:layout_below="@+id/tv_my_k_song"
+            android:layout_marginLeft="@dimen/twenty_dp"
+            android:layout_marginTop="@dimen/fifteen_dp"
+            android:layout_toRightOf="@+id/Img_to_login"
+            android:text="@string/Click_on_image_to_login"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/myKSong_tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/myKSong_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/fifty_dp"
+    android:orientation="horizontal"
+    android:background="#00B4F5">
+    <Button
+        android:layout_width="@dimen/twenty_dp"
+        android:layout_height="@dimen/twenty_dp"
+        android:background="@mipmap/bt_sceneplay_mode_show"
+        android:layout_marginLeft="@dimen/ten_dp"
+        android:layout_marginTop="@dimen/ten_dp"/>
+    <EditText
+        android:layout_width="@dimen/three_hundred_dp"
+        android:layout_height="@dimen/thirty_dp"
+        android:hint="@string/song_singer_special_lyric_accompany"
+        android:background="#FFFFFF"
+        android:layout_marginLeft="@dimen/fifteen_dp"
+        android:layout_marginTop="@dimen/ten_dp"/>
+<Button
+    android:layout_width="@dimen/twenty_dp"
+    android:layout_height="@dimen/twenty_dp"
+    android:background="@mipmap/abc_ic_search_api_mtrl_alpha"
+    android:layout_marginLeft="@dimen/fifteen_dp"
+    android:layout_marginTop="@dimen/ten_dp"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/one_hundred_fifty_dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hot_search"/>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/hot_search_recyclerView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/No_search_history"
+        android:layout_marginTop="@dimen/thirty_dp"
+        android:layout_gravity="center"/>
+</LinearLayout>

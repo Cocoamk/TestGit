@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:id="@+id/rl_rankingList">
+
+    <ImageView
+        android:id="@+id/img_songList"
+        android:layout_width="@dimen/one_hundred_sixty"
+        android:layout_height="@dimen/one_hundred_sixty"
+        android:layout_marginTop="@dimen/ten_dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_songList_title"
+        android:layout_below="@id/img_songList"
+        android:textSize="@dimen/ten_sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_songList_tag"
+        android:layout_below="@id/tv_songList_title"
+        android:textSize="@dimen/ten_sp"/>
+
+</RelativeLayout>

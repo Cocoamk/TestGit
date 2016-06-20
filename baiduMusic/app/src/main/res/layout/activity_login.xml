@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fifteen_dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_all_singer_return"
+            android:layout_width="@dimen/twenty_dp"
+            android:layout_height="@dimen/twenty_dp"
+            android:layout_marginLeft="@dimen/twenty_dp"
+            android:layout_marginTop="@dimen/fifteen_dp"
+            android:background="@mipmap/sapi_btn_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/twenty_dp"
+            android:layout_marginLeft="@dimen/eighty_dp"
+            android:layout_marginTop="@dimen/fifteen_dp"
+            android:text="@string/baidu_account_login"
+            />
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/one_dp"
+        android:background="@android:color/darker_gray"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/baidu_title"
+        android:layout_marginLeft="@dimen/ninty_dp"
+        android:layout_marginTop="@dimen/ten_dp"/>
+    <EditText
+        android:id="@+id/et_num_email"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fifty_dp"
+        android:background="@drawable/shape"
+        android:layout_marginLeft="@dimen/ten_dp"
+        android:layout_marginRight="@dimen/ten_dp"
+        android:layout_marginTop="@dimen/thirty_dp"
+        android:hint="@string/number_user_Email"
+        android:paddingLeft="@dimen/twenty_dp"/>
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fifty_dp"
+        android:background="@drawable/shape"
+        android:layout_marginRight="@dimen/ten_dp"
+        android:layout_marginLeft="@dimen/ten_dp"
+        android:layout_marginTop="@dimen/ten_dp"
+        android:hint="@string/password"
+        android:paddingLeft="@dimen/twenty_dp"/>
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9Bc9f1"
+        android:layout_marginTop="@dimen/twenty_dp"
+        android:layout_marginLeft="@dimen/ten_dp"
+        android:layout_marginRight="@dimen/ten_dp"
+        android:text="@string/login"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_problem"
+        android:layout_marginLeft="@dimen/ten_dp"
+        android:layout_marginTop="@dimen/thirty_dp"/>
+</LinearLayout>

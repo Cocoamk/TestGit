@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7f7f76"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_songContent_down"
+            android:layout_width="@dimen/forty_dp"
+            android:layout_height="@dimen/forty_dp"
+            android:background="@mipmap/bt_playpage_button_return_press" />
+
+        <TextView
+            android:id="@+id/tv_song_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/btn_songContent_down" />
+
+        <TextView
+            android:id="@+id/tv_singer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_song_name"
+            android:layout_toRightOf="@id/btn_songContent_down"/>
+
+        <ImageView
+            android:id="@+id/img_devide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tv_song_name"
+            android:background="@mipmap/img_live_integral"
+            android:layout_marginLeft="@dimen/three_hundred_dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/bt_widget_mode_lyrics_nor"
+            android:layout_toRightOf="@+id/img_devide"
+            android:layout_marginTop="@dimen/ten_dp"
+            android:layout_marginLeft="@dimen/five_dp"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/three_hundred_dp"
+        android:background="@mipmap/scan_first"
+        android:layout_marginLeft="@dimen/twenty_dp"
+        android:layout_marginRight="@dimen/twenty_dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="@dimen/thirty_dp">
+
+        <ImageButton
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_mike_normal" />
+
+        <ImageButton
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/fifty_dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_download_normal" />
+
+        <ImageButton
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/fifty_dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_fav_normal" />
+
+        <ImageButton
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/fifty_dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_list_more_normal" />
+    </LinearLayout>
+    <SeekBar
+        android:id="@+id/song_play_seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/thirty_dp"
+        android:background="@null"
+        android:layout_marginLeft="@dimen/twenty_dp"
+        android:layout_marginRight="@dimen/twenty_dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/tv_current_time"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/fifteen_dp"
+        android:layout_marginLeft="@dimen/twenty_dp"
+        android:text="00:00"/>
+    <TextView
+        android:id="@+id/tv_total_time"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/fifteen_dp"
+        android:layout_marginLeft="@dimen/two_hundred_sixty"
+        android:text="00:00"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/thirty_dp">
+        <ImageButton
+            android:id="@+id/imgBtn_songs_state"
+            android:layout_width="@dimen/twenty_dp"
+            android:layout_height="@dimen/twenty_dp"
+            android:layout_marginLeft="@dimen/twenty_dp"
+            android:layout_marginTop="@dimen/twenty_dp"
+            android:background="@mipmap/bt_list_button_roundplay_normal"/>
+        <ImageButton
+            android:id="@+id/imgBtn_before"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/bt_playpage_button_previous_press"
+            android:layout_marginLeft="@dimen/forty_dp"/>
+        <CheckBox
+            android:id="@+id/imgBtn_play_or_pause"
+            android:layout_width="@dimen/forty_dp"
+            android:layout_height="@dimen/forty_dp"
+            android:background="@drawable/play_song_pause_play"
+            android:button="@null"
+            android:layout_marginTop="@dimen/ten_dp"/>
+        <ImageButton
+            android:id="@+id/imgBtn_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/bt_playpage_button_next_press"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/bt_playpage_button_list_press"
+            android:layout_marginLeft="@dimen/thirty_dp"
+            android:layout_marginTop="@dimen/ten_dp"/>
+    </LinearLayout>
+</LinearLayout>

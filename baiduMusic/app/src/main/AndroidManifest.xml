@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dllo.baidumusic">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:name=".net.MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/information_icon_4"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".activity.SongPlayActivity" />
+        <activity android:name=".activity.SongDetailActivity" />
+        <activity android:name=".activity.RankingPlayActivity" />
+        <activity android:name=".activity.SongClassifyActivity" />
+        <activity android:name=".activity.AllSingerActivity" />
+        <activity android:name=".activity.TodayRecommendActivity" />
+        <activity android:name=".activity.ChineseMaleSingerActivity" />
+        <activity android:name=".activity.MaleSingerSongsActivity" />
+        <activity android:name=".activity.SongDetailMainActivity" />
+        <activity android:name=".activity.LoginActivity" />
+
+        <service android:name=".service.SongPlayService" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/one_hundred_fifty_dp">
+
+        <ImageView
+            android:id="@+id/img_new_songList"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/one_hundred_fifty_dp"
+            android:background="#ffffff"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/twenty_dp"
+            android:layout_height="@dimen/twenty_dp"
+            android:background="@mipmap/ic_songlist_play"
+            android:layout_marginBottom="@dimen/ten_dp"
+            android:layout_marginRight="@dimen/ten_dp"
+
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"/>
+        <TextView
+            android:id="@+id/tv_song_detail_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/twelve_sp"/>
+        <TextView
+            android:id="@+id/tv_song_detail_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/ten_sp"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/forty_dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ten_dp"
+            android:layout_marginTop="@dimen/ten_dp"
+            android:text="共100首歌" />
+
+        <Button
+            android:layout_width="@dimen/thirty_dp"
+            android:layout_height="@dimen/thirty_dp"
+            android:layout_marginLeft="@dimen/one_hundred_dp"
+            android:background="@mipmap/ic_fav_normal" />
+
+        <Button
+            android:layout_width="@dimen/thirty_dp"
+            android:layout_height="@dimen/thirty_dp"
+            android:layout_marginLeft="@dimen/forty_dp"
+            android:background="@mipmap/ic_download_normal" />
+
+        <Button
+            android:layout_width="@dimen/thirty_dp"
+            android:layout_height="@dimen/thirty_dp"
+            android:layout_marginLeft="@dimen/forty_dp"
+            android:background="@mipmap/ic_share_normal" />
+    </LinearLayout>
+<TextView
+    android:id="@+id/tv_desc"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/forty_dp"
+    android:textSize="@dimen/ten_sp"/>
+    <ListView
+        android:id="@+id/listView_songDetail"
+        android:layout_width="match_parent"
+        android:layout_height="290dp" />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/one_dp"
+        android:id="@+id/ll_song_play">
+        <ImageView
+            android:id="@+id/img_song_detail_play_head"
+            android:layout_width="@dimen/fifty_dp"
+            android:layout_height="@dimen/fifty_dp"
+            android:background="@mipmap/song_play"/>
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_songs_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/five_dp"
+            android:textSize="@dimen/ten_sp"
+            android:layout_marginTop="@dimen/ten_dp"/>
+            <TextView
+                android:id="@+id/tv_songs_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/five_dp"
+                android:textSize="@dimen/ten_sp"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_detail_list"
+            android:layout_width="@dimen/twenty_dp"
+            android:layout_height="@dimen/twenty_dp"
+            android:background="@mipmap/bt_minibar_playinglist_normal"
+            android:layout_marginTop="@dimen/twenty_dp"
+         />
+        <CheckBox
+            android:id="@+id/btn_pause"
+            android:layout_width="@dimen/twenty_dp"
+            android:layout_height="@dimen/twenty_dp"
+            android:background="@drawable/song_pause_or_play"
+            android:layout_marginTop="@dimen/twenty_dp"
+            android:layout_marginLeft="@dimen/thirty_dp"
+            android:button="@null"/>
+        <Button
+            android:id="@+id/btn_song_detail_next"
+            android:layout_width="@dimen/twenty_dp"
+            android:layout_height="@dimen/twenty_dp"
+            android:background="@mipmap/bt_minibar_next_normal"
+            android:layout_marginTop="@dimen/twenty_dp"
+            android:layout_marginLeft="@dimen/thirty_dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
